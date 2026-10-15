@@ -32,7 +32,7 @@ RK4 was used for the subsequent simulations because it achieves substantially hi
 
 **Results and discussion:**
 
-- The infectious population peaks at **day 42.5**, with approximately **469 infectious people** (23.5% of the population).
+- The infectious population peaks at **day 42.5**, with approximately **469 infectious people** (23.4% of the population).
 - The basic reproduction number is **R₀ = βN/γ = 2.50**, so the outbreak initially grows. The mean infectious period is **10 days**.
 - Since `dI/dt = I(βS − γ)`, the peak occurs when the susceptible population reaches the threshold **S = γ/β = 800**. The sampled simulation gives approximately **S = 802.1** at the reported peak.
 - At day 160, **S ≈ 214.1**, **I ≈ 0.21**, and **R ≈ 1785.7**. Thus approximately **214 people (10.7%)** remain uninfected by day 160.
@@ -78,7 +78,7 @@ The SEIR basic reproduction number is
 
 compared with **R₀ = 2.5000** in the SIR model. The SEIR value is lower because some exposed individuals die before becoming infectious and mortality shortens the average infectious period. In the absence of mortality (`μ = 0`), this SEIR formula reduces to the SIR value.
 
-The theoretical endemic susceptible population is **S* = N/R₀ = 856.80**. The numerical result at day 1500 is **S(1500) = 856.92**, a difference of only **0.12**. At the endemic equilibrium, the effective reproduction number is one and infections persist at a nonzero level. The idealized critical immune fraction is approximately **57.2%**, assuming homogeneous mixing and perfect immunity; this is not a guarantee of immediate elimination through newborn vaccination.
+The theoretical endemic susceptible population is **S* = N/R₀ = 856.80**. The numerical result at day 1500 is **S(1500) = 856.92**, a difference of only **0.12**. At the endemic equilibrium, the effective reproduction number is one and infections persist at a nonzero level. The idealized critical immune fraction is approximately **57.2%**, assuming homogeneous mixing and perfect immunity.
 
 ### D(v). Exposed stage and demographic assumptions
 
