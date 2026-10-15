@@ -142,7 +142,7 @@ The notebook uses **NumPy**, **Matplotlib**, and **SciPy** (`solve_ivp`, `find_p
 ```text
 README.md
 requirements.txt
-W7_HW1(1).ipynb
+W7_HW1.ipynb
 figures/
     B_sir.png
     D_seir_365_1500.png
