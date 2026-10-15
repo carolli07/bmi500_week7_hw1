@@ -1,9 +1,9 @@
 # HW 1 — SIR and SEIR Model Implementation for Pandemic Spread
 
-**Name:** Carol Li
+**Name:** Carol Li。
 **Email:** xli896@emory.edu  
 **Question number:** HW 1, Parts A–E  
-**Notebook:** `W7_HW1(1).ipynb`
+**Notebook:** `W7_HW1.ipynb`
 
 ## Overview
 
